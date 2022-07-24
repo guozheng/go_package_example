@@ -1,3 +1,3 @@
-module "github.com/learning-go-book/package_example"
+module "github.com/guozheng/go_package_example"
 
 go 1.15

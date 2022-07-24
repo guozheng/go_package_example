@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"github.com/learning-go-book/package_example/formatter"
-	"github.com/learning-go-book/package_example/math"
+	print "github.com/guozheng/go_package_example/formatter"
+	"github.com/guozheng/go_package_example/math"
 )
 
 func main() {
