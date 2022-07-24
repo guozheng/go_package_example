@@ -1,3 +1,3 @@
-module "github.com/guozheng/go_package_example"
+module github.com/guozheng/go_package_example
 
-go 1.15
+go 1.18
