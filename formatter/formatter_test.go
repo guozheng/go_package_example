@@ -44,3 +44,12 @@ func TestSpace(t *testing.T) {
 		})
 	}
 }
+
+var blackhole string
+
+func BenchmarkSpace(b *testing.B) {
+	for i := 0; i < b.N; i++ {
+		result := Space(100, "Hello", "World")
+		blackhole = result
+	}
+}
